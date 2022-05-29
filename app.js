@@ -127,6 +127,9 @@ var taskCompleted=function(){
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
+    var editBtn=listItem.querySelector(".edit-btn");
+    editBtn.innerText="Edit";
+    listItem.classList.remove("todo-item_edit");
 }
 
 
@@ -139,6 +142,9 @@ var taskIncomplete=function(){
     listItem.classList.toggle('todo-item_completed')
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
+    var editBtn=listItem.querySelector(".edit-btn");
+    editBtn.innerText="Edit";
+    listItem.classList.remove("todo-item_edit");
 }
 
 

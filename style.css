@@ -19,8 +19,11 @@
 }
 
 @media (max-width:768px) {
-  .about { text-align: center;
-}
+
+  .about {
+    text-align: center;
+  }
+
 }
 .todo {
   display: block;

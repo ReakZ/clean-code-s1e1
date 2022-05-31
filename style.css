@@ -30,7 +30,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.todo-item__desc {
+.desc {
   width: 56%;
   display: inline-block;
   flex-grow: 1
